@@ -14,6 +14,5 @@ public class Main {
 		AnalyticsCounter analyticsCounter = new AnalyticsCounter(reader, writer);
 			
 		analyticsCounter.writeSymptoms(analyticsCounter.countSymptoms(analyticsCounter.getSymptoms()));
-		
 	}
 }
